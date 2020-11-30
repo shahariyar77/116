@@ -1,0 +1,80 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+.fetures-manu {
+  margin: 0 0 100px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+.fetures-manu li {
+  display: inline-block;
+}
+.fetures-manu li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  margin: 0 20px;
+  border-bottom: 4px solid transparent;
+  display: block;
+}
+.fetures-manu li.active a{
+    border-color: #ffce43;
+}
+.single-feture-item {
+  position: relative;
+  display: table;
+  height: 500px;
+  width: 100%;
+}
+.fetures-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 500px;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+    background-image: url(img/img-2.jpg);
+}
+.fetures-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 550px;
+}
+.fetures-text h4 {
+  font-size: 30px;
+  opacity: .5;
+}
+.fetures-text h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+body {
+  line-height: 1.8;
+}
+.box-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ffcd46;
+  color: #333;
+  border-radius: 40px;
+  margin-top: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+
+
+
